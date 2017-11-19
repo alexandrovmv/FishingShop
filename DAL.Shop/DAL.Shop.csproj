@@ -63,19 +63,14 @@
   <ItemGroup>
     <Compile Include="Category.cs" />
     <Compile Include="Photo.cs" />
+    <Compile Include="Producer.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShopContext.cs" />
+    <Compile Include="FShopContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FishingShop\FishingShop.csproj">
-      <Project>{ac920e3e-d731-40b2-ae67-211159dbcc15}</Project>
-      <Name>FishingShop</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

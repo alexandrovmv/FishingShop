@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace DAL.Shop
 {
-    public class ShopContext : DbContext
+    public class FShopContext : DbContext
     {
         public List<Product> Products { get; set; }
         public List<Category> Categories { get; set; }
         public List<Photo> Photos { get; set; }
-        public ShopContext() : base("name=FishingShopDb")
+        public List<Producer> Producers { get; set; }
+        public FShopContext() : base("name=FishingShopDb")
         {
            
         }

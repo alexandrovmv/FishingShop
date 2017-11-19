@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Shop
 {
-    public class Category
+    public class Producer
     {
         [Key]
-        public int CategoryId { get; set; }
-        [MaxLength(100),Required, ]
+        public int PoducerId { get; set; }
+        [Required]
         public string Name { get; set; }
 
     }

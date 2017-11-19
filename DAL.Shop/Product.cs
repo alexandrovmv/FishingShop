@@ -15,7 +15,7 @@ namespace DAL.Shop
         public string  Name { get; set; }
         public int Quantity { get; set; }       
         public double Price { get; set; }
-
+        public virtual int ProducerId { get; set; }
         public virtual int CategoryId { get; set; }
         public virtual List<Photo> Photos { get; set; }
     }
